@@ -287,7 +287,7 @@ footer {
       ". item1 item2 item3 item4 ."
       ". item1 item2 item3 item4 ."
       ". item5 item6 item7 item8 ."
-      ". item5 item6 item7 item8 ."
+      ". item5 item6 item7 item8 info-bubble"
       "footer footer footer footer footer footer";
   }
   
@@ -300,44 +300,98 @@ footer {
     text-align: center;
     }
   
+    .item1:hover {
+        box-shadow: 0 0 0 2px #e9e6e7;
+    }
+
   .item2 { 
     grid-area: item2; 
     text-align: center;
+    }
+
+    .item2:hover {
+        box-shadow: 0 0 0 2px #e9e6e7;
     }
   
   .item3 {
     grid-area: item3; 
     text-align: center;
     }
+
+    .item3:hover {
+        box-shadow: 0 0 0 2px #e9e6e7;
+    }
   
   .item4 {
     grid-area: item4; 
     text-align: center;
-    
+    }
+
+    .item4:hover {
+        box-shadow: 0 0 0 2px #e9e6e7;
     }
   
   .item5 {
     grid-area: item5; 
     text-align: center;
-    
+    }
+
+    .item5:hover {
+        box-shadow: 0 0 0 2px #e9e6e7;
     }
   
   .item6 {
     grid-area: item6; 
     text-align: center;
-    
+    }
+
+    .item6:hover {
+        box-shadow: 0 0 0 2px #e9e6e7;
     }
   
   .item7 {
     grid-area: item7; 
     text-align: center;
-    
+    }
+
+    .item7:hover {
+        box-shadow: 0 0 0 2px #e9e6e7;
     }
   
   .item8 {
     grid-area: item8; 
     text-align: center;
+    }
+
+    .item8:hover {
+        box-shadow: 0 0 0 2px #e9e6e7;
+    }
+
+    .info-bubble {
+        grid-area: info-bubble;
+        margin: 20px;
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+        background-color: #e9e6e7;
+        transition: all 1.5s ease;
+        position: left bottom;
+    }
     
+    .info-bubble:hover {
+        transform: translate(20px);
+        animation: change-form 5s;
+    }
+    
+    @keyframes change-form {    
+        100% {
+            width: 200px;
+            height: 80px;
+            border-top-right-radius: 15%;
+            border-bottom-right-radius: 15% ;
+            border-bottom-left-radius: 40%;
+            border-top-left-radius: 40%;
+        }
     }
 
     @media (max-width: 414px) {
@@ -372,7 +426,6 @@ footer {
         .ig-logo, .fb-logo, .wpp-logo, .tw-logo {
             height: 100px;
             margin: auto;
-            
         }
 
         .fa-heart {
