@@ -1,3 +1,4 @@
+
 .logo {
     padding: 1em;
 }
@@ -24,4 +25,17 @@
 
 .logos {
     margin: 2em;
+}
+
+/*CONTACTO*/
+
+.contacto-text {
+    text-align: left;
+    margin-left: 200px;
+    padding: 1%;
+}
+
+.input-group, .mb-3, .form-select, .form-check, .btn-light, .mensaje{
+    margin: 15px;
+    width: 500px;
 }
