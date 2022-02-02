@@ -4,42 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image.png" href="./images/favicon-32x32.png">
-    <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" type="image.png" href="../images/favicon-32x32.png">
+    <script src="https://kit.fontawesome.com/8229939118.js" crossorigin="anonymous"></script>
     <title>Metodos de pago</title>
 </head>
 
 <body>
-    <header>
-        <div class="topText">
-            Envio gratis a partir de $3000
-        </div>
-        
-        <img src="../images/darling-header.png" alt=logo id="headerLogo">
-        
-        <nav class="menu">
-            <ul>
-                <li><a href="../index.html"> Inicio</a></li>
-                <li><a href="../pages/productos.html"> Productos </a></li>
-                <li><a href="../pages/contacto.html"> Contacto </a> </li>
-                <li><a href="../pages/preguntas-frecuentes.html"> Preguntas Frecuentes </a></li>
-            </ul>
-        </nav>
-    </header>
+    <main>
+        <div class="container-fluid fw-light">
+            <div class="row">
+                <div class="col">
+                    <header>
+                        <div class="text-center envio-index">
+                            Envio gratis a partir de $3000
+                        </div>
+                        <div class="text-center logo">
+                            <img src="../images/darling-header.png" alt="logo" id="headerLogo">
+                        </div>
+                        <nav class="menu-header">
+                            <ul class="nav justify-content-center border border-1 border-dark border-start-0 border-end-0">
+                                <li><a href="../index.html" class="text-decoration-none menu letras"> Inicio</a></li>
+                                <li><a href="../pages/productos.html" class="text-decoration-none menu letras"> Productos </a></li>
+                                <li><a href="../pages/contacto.html" class="text-decoration-none menu letras"> Contacto </a> </li>
+                                <li><a href="../pages/preguntas-frecuentes.html" class="text-decoration-none menu letras"> Preguntas Frecuentes </a></li>
+                                <li><a i class="fas fa-shopping-cart text-decoration-none icon"></i></a></li>
+                                <li><a i class="far fa-heart text-decoration-none icon"></i></a></li>
+                            </ul>
+                        </nav>
+                    </header>
+                </div>
+            </div>
     
-    <div class="footer">
-        <footer>       
-            <ul class="ul-footer">
-                <li><a href="../pages/envios.html">Envios</a></li>
-                <li><a href="../pages/metodos de pago.html">Metodos de pago</a></li>
-                <li><a href="../pages/local.html">Local</a></li>
-                <li><a href="../pages/trabaja con nosotros.html">Trabaja con nosotros</a></li>
-             </ul>
-             
-            <h5 class="footer-h5"> <i class="far fa-copyright"> </i>Milagros Ojeda</h5>
-        </footer>
+            <div class="row">
+                <div class="col">
+                    <footer>       
+                        <ul class="nav justify-content-center border border-1 border-dark border-start-0 border-end-0">
+                            <li><a href="../pages/envios.html" class="text-decoration-none menu letras">Envios</a></li>
+                            <li><a href="../pages/metodos de pago.html" class="text-decoration-none menu letras">Metodos de pago</a></li>
+                            <li><a href="../pages/local.html" class="text-decoration-none menu letras">Local</a></li>
+                            <li><a href="../pages/trabaja con nosotros.html" class="text-decoration-none menu letras">Trabaja con nosotros</a></li>
+                        </ul>        
+                        <h6 class="text-center menu"> <i class="far fa-copyright"> </i>Milagros Ojeda</h6>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
+
 </html>

@@ -1,3 +1,10 @@
+a {
+    text-decoration: none;
+}
+
+.letras:hover {
+    color: rgb(231, 205, 255);
+}
 
 .logo {
     padding: 1em;
@@ -26,7 +33,6 @@
 .logos {
     margin: 2em;
 }
-
 /*CONTACTO*/
 
 .contacto-text {
@@ -38,4 +44,36 @@
 .input-group, .mb-3, .form-select, .form-check, .btn-light, .mensaje{
     margin: 15px;
     width: 500px;
+}
+
+
+/*PRODUCTOS*/
+
+.card {
+    text-align:center;
+}
+
+
+.productos {
+    padding: 1em;
+}
+.card {
+    margin: auto;
+}
+
+.fa-whatsapp {
+    font-size: 80px;
+    background-color: white;
+    color: black;
+}
+
+.fa-whatsapp:hover {
+    color: rgb(231, 205, 255);   
+}
+
+.fixed {
+    position: fixed;
+    right: 45px;
+    z-index: 1;
+    bottom: 50px;
 }
