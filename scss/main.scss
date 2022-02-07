@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import './secciones/header-footer/header';
+@import './secciones/index';
+@import './secciones/productos';
+@import './secciones/header-footer/footer';

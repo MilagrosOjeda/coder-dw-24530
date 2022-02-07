@@ -1,0 +1,23 @@
+$color-lila: rgb(231, 205, 255);  
+
+footer {
+    ul {
+        li {
+            text-align: center;
+            text-transform: uppercase;
+            margin: 15px;
+            .letras{
+                color: #000;
+                &:hover {
+                color: $color-lila;
+            }
+
+            }
+            
+        }
+    }
+    h6 {
+        text-transform: uppercase;
+        padding: 15px;
+    }
+}

@@ -1,0 +1,24 @@
+$color-lila: rgb(231, 205, 255);  
+
+.productos {
+    padding: 1em;
+    text-align: center;
+}
+.card {
+    margin: auto;
+    text-align: center;
+}
+
+.fa-whatsapp {
+    font-size: 80px;
+    color: black;
+        &:hover {
+            color: $color-lila;
+        }   
+}
+.fixed {
+    position: fixed;
+    right: 45px;
+    z-index: 1;
+    bottom: 50px;
+}   

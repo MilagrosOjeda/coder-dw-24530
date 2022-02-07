@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header .envio-index {
+  color: #fff;
+  background-color: #000;
+  text-transform: uppercase; }
+
+header .logo {
+  padding: 1em; }
+
+header ul li {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 15px; }
+  header ul li .letras {
+    color: #000; }
+    header ul li .letras:hover {
+      color: #e7cdff; }
+
+a {
+  text-decoration: none; }
+
+.fb, .ig, .wpp, .tw {
+  padding: 0px 32px; }
+
+.productos {
+  padding: 1em;
+  text-align: center; }
+
+.card {
+  margin: auto;
+  text-align: center; }
+
+.fa-whatsapp {
+  font-size: 80px;
+  color: black; }
+  .fa-whatsapp:hover {
+    color: #e7cdff; }
+
+.fixed {
+  position: fixed;
+  right: 45px;
+  z-index: 1;
+  bottom: 50px; }
+
+footer ul li {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 15px; }
+  footer ul li .letras {
+    color: #000; }
+    footer ul li .letras:hover {
+      color: #e7cdff; }
+
+footer h6 {
+  text-transform: uppercase;
+  padding: 15px; }

@@ -1,0 +1,25 @@
+$color-lila: rgb(231, 205, 255);  
+header{
+    .envio-index {
+        color: #fff;
+        background-color: #000;
+        text-transform: uppercase;
+    }
+    .logo {
+        padding: 1em;
+    }
+    ul {
+        li {
+            text-align: center;
+            text-transform: uppercase;
+            margin: 15px;
+            .letras{
+                color: #000;
+                    &:hover {
+                    color: $color-lila;
+                }
+            }
+            
+        }
+    }
+}
