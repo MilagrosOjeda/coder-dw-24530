@@ -2,9 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
 }
+
+@import './variables/medidas';
 
 @import './secciones/header-footer/header';
 @import './secciones/index';
 @import './secciones/productos';
 @import './secciones/header-footer/footer';
+@import './secciones/local';
+@import './secciones/contacto';

@@ -1,6 +1,24 @@
 a {
     text-decoration: none;
 }
-.fb, .ig, .wpp, .tw {
-    padding: 0px 32px;
+
+.logos{
+    margin: 0px 30px;
+}
+
+.fotos {
+    padding: 5px;
+}
+
+@media (max-width: 575.98px) {
+    .logos {
+        width: 132px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 438px){
+    .logos {
+        width: 95px;
+    }
 }

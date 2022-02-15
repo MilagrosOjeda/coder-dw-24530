@@ -2,6 +2,7 @@ $color-lila: rgb(231, 205, 255);
 
 footer {
     ul {
+        margin-top: 10px;
         li {
             text-align: center;
             text-transform: uppercase;
@@ -11,13 +12,28 @@ footer {
                 &:hover {
                 color: $color-lila;
             }
-
             }
-            
         }
     }
     h6 {
         text-transform: uppercase;
         padding: 15px;
+    }
+
+    @media (max-width: 576px){
+        ul {
+            li {
+                font-size: $font-li;
+                margin: 5px;
+                .letras {
+                    display: list-item;
+                    color: white;
+                    background-color: black;
+                    padding: 10px 0px;
+                    text-align: center;
+                    width: 350px
+                }
+            }
+        }
     }
 }
