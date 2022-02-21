@@ -5,17 +5,36 @@
   font-family: 'Spartan', sans-serif; }
 
 /* HEADER FOOTER MEDIA QUERYS*/
+/*INDEX*/
+main .container h2 {
+  justify-content: center;
+  line-height: 30px;
+  overflow-wrap: break-word; }
+
+h1 {
+  font-size: 30px; }
+
+h2 {
+  font-size: 25px; }
+
+h3 {
+  font-size: 20px; }
+
+p {
+  font-size: 18px; }
+
 header .envio-index {
   color: #fff;
   background-color: #000;
   text-transform: uppercase;
-  font-size: 13px;
-  font-weight: 200;
-  padding: 5px;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 6px;
+  padding-top: 8px;
   text-align: center; }
 
-header .logo {
-  padding: 16px; }
+header .header-logo {
+  padding: 10px; }
 
 header ul li {
   text-align: center;
@@ -29,10 +48,17 @@ header ul li {
 
 @media (max-width: 576px) {
   header ul li {
-    font-size: 14px;
-    margin: 15px 5px; }
+    font-size: 1rem;
+    margin: 20px 3px; }
     header ul li .letras {
-      color: #080808; } }
+      color: #302f2f; } }
+
+@media (max-width: 426px) {
+  header .envio-index {
+    font-size: 1rem; }
+  header ul li {
+    font-size: 1rem;
+    margin: 20px 5px; } }
 
 a {
   text-decoration: none; }
@@ -43,36 +69,44 @@ a {
 .fotos {
   padding: 5px; }
 
-@media (max-width: 575.98px) {
+@media (max-width: 576px) {
   .logos {
-    width: 132px;
+    width: 125px;
     margin: auto; } }
 
-@media (max-width: 438px) {
+@media (max-width: 522px) {
   .logos {
-    width: 95px; } }
+    width: 125px;
+    margin: auto; } }
 
-.productos {
-  text-align: center; }
+@media (max-width: 395px) {
+  .logos {
+    width: 25px;
+    margin: auto; } }
 
-.card {
-  margin: auto;
-  text-align: center; }
+@media (max-width: 768px) {
+  .logos {
+    width: 125px;
+    margin: auto; } }
 
-.fa-whatsapp {
+main .row-2 {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+  main .row-2 .card {
+    margin: auto;
+    text-align: center; }
+
+main a .fa-whatsapp-square {
   font-size: 80px;
-  color: black; }
-  .fa-whatsapp:hover {
-    color: #e7cdff; }
+  color: #e7cdff; }
+  main a .fa-whatsapp-square:hover {
+    color: #d7b0fc; }
 
-.fixed {
+main a .fixed {
   position: fixed;
   right: 45px;
   z-index: 1;
   bottom: 50px; }
-
-.row-2 {
-  margin-top: 20px; }
 
 footer ul {
   margin-top: 10px; }
@@ -81,17 +115,18 @@ footer ul {
     text-transform: uppercase;
     margin: 15px; }
     footer ul li .letras {
-      color: #000; }
+      color: #302f2f;
+      font-weight: 300; }
       footer ul li .letras:hover {
         color: #e7cdff; }
 
 footer h6 {
   text-transform: uppercase;
-  padding: 15px; }
+  padding: 10px; }
 
 @media (max-width: 576px) {
   footer ul li {
-    font-size: 14px;
+    font-size: 1rem;
     margin: 5px; }
     footer ul li .letras {
       display: list-item;
@@ -99,7 +134,23 @@ footer h6 {
       background-color: black;
       padding: 10px 0px;
       text-align: center;
-      width: 350px; } }
+      width: 350px; }
+  footer h6 {
+    font-size: 10px; } }
+
+@media (max-width: 350px) {
+  footer ul li {
+    font-size: 1rem;
+    margin: 5px; }
+    footer ul li .letras {
+      display: list-item;
+      color: white;
+      background-color: black;
+      padding: 10px 0px;
+      text-align: center;
+      width: 250px; }
+  footer h6 {
+    font-size: 1rem; } }
 
 .mapaText {
   padding: 20px; }
@@ -108,14 +159,5 @@ footer h6 {
   iframe {
     width: fit-content; } }
 
-main h3 {
-  padding: 10px;
-  text-align: center; }
-
-main .input-group, main .mb-3, main .form-select {
-  width: 500px;
-  padding: 5px;
-  justify-content: center; }
-
-main .form-check {
-  margin: 10px; }
+main h1 {
+  padding: 20px; }

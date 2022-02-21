@@ -1,40 +1,52 @@
-$color-lila: rgb(231, 205, 255);
 header{
     .envio-index {
         color: #fff;
         background-color: #000;
         text-transform: uppercase;
-        font-size: 13px;
-        font-weight: 200;
-        padding: 5px;
+        font-size: 14px;
+        font-weight: 300;
+        padding: 6px;
+        padding-top: 8px;
         text-align: center;
     }
-    .logo {
-        padding: 16px;
+    .header-logo{
+        padding: 10px;
     }
-    ul {
+    ul{
         li {
             text-align: center;
             text-transform: uppercase;
             margin: 15px;
             text-size-adjust: auto;
             .letras{
-                color: rgb(48, 47, 47);
-                    &:hover {
+                color: $color-gris;
+                &:hover {
                     color: $color-lila;
                 }
             }
-            
         }
     }
 @media (max-width: 576px){ 
     ul {
         li{
             font-size: $font-li;
-            margin: 15px 5px;
+            margin: 20px 3px;
             .letras {
-                color: rgb(8, 8, 8);
+                color: $color-gris;
             }
+        }
+    }
+ }
+ @media (max-width: 426px){
+  
+    .envio-index{
+        font-size: $font-li;
+    }
+
+    ul{
+        li{
+            font-size: $font-li;
+            margin: 20px 5px;
         }
     }
  }

@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8229939118.js" crossorigin="anonymous"></script>
-    <title>Local</title>
+    <title>Trabaja con nosotros</title>
 </head>
 
 <body>
@@ -41,18 +41,69 @@
                 </header>
             </div>
         </div>
-        
-        <div class="container-fluid fw-light">
-            <div class="texto-local text-center">
-                <h1 class="mapaText">¡VENI A CONOCERNOS!</h1>
-                <p class="direccion txtmapa"> Montevideo 400, C.A.B.A</p>
-                <p class="direccion txtmapa">Lunes a Sabados de 09:00 a 21:00 hs. </p>
-                <p class="direccion txtmapa">11 6965-7344 / WhatsApp</p>
+        <div class="container fw-light">
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-center">
+                        ¿QUERES UNIRTE A NUESTRO EQUIPO?
+                    </h1>
+                </div>
             </div>
+            <div class="row">
+                <div class="col">
+                   <h2 class="text-center mb-2">
+                        DEJANOS TUS DATOS
+                    </h2> 
+                </div>
+            </div>
+
             
-            <div class="mapa p-3 w-100 text-center">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6567.955273613037!2d-58.389376999999996!3d-34.604727!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac1573b02bf%3A0x905f77e0c0d98023!2sMontevideo%20400%2C%20C1042%20CABA!5e0!3m2!1ses-419!2sar!4v1644878247406!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>   
+            <form>
+                <div class="mb-3">
+                    <div class="row g-2">
+                        <div class="col-6">
+                            <input type="text" class="form-control" placeholder="Nombre" aria-label="nombre">
+                        </div>
+
+                        <div class="col-6">
+                            <input type="text" class="form-control" placeholder="Apellido" aria-label="apellido">
+                        </div>
+                    </div>
+                </div>
+                    
+                <div class="row g-2">
+                    <div class="col-6"> 
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">                        
+                        </div>
+                    </div>
+                
+                    <div class="col-6">
+                        <div class="mb-3">
+                            <label class="visually-hidden" for="inlineFormSelectPref">Genero</label>
+                            <select class="form-select" id="inlineFormSelectPref">                                    <option selected disabled>Genero</option>
+                            <option value="m">Masculino</option>
+                            <option value="f">Femenino</option>
+                            <option value="o">Otro</option>
+                            </select>
+                        </div> 
+                    </div>
+                </div> 
+                
+                <div class="row g-2">
+                    <div class="col-6">
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupFile01">CV</label>
+                            <input type="file" class="form-control" id="inputGroupFile01">
+                        </div> 
+                    </div>                   
+                </div> 
+                <div class="row">
+                    <div class="col">
+                        <button type="submit" class="btn btn-primary btn-submit mb-3">Enviar</button>
+                    </div>
+                </div>
+            </form>
         </div>
 
         <div class="row">
@@ -65,7 +116,7 @@
                     </ul>
                     <h6 class="text-center"> <i class="far fa-copyright"> </i>Milagros Ojeda</h6>
                 </footer>
-            </div>
+            </div>            
         </div>
     </main>
 </body>

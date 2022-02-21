@@ -1,26 +1,26 @@
-.productos {
-    text-align: center;
-}
-.card {
-    margin: auto;
-    text-align: center;
-}
+main {
+    .row-2 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        .card {
+            margin: auto;
+            text-align: center;
+        }
+    }
 
-.fa-whatsapp {
-    font-size: 80px;
-    color: black;
-        &:hover {
+    a{
+        .fa-whatsapp-square{
+            font-size: 80px;
             color: $color-lila;
+            &:hover{
+                color: $color-lila-hover;
+            }      
         }   
+        .fixed {
+            position: fixed;
+            right: 45px;
+            z-index: 1;
+            bottom: 50px;
+        }
+    }
 }
-.fixed {
-    position: fixed;
-    right: 45px;
-    z-index: 1;
-    bottom: 50px;
-}   
-
-.row-2 {
-    margin-top: 20px;
-}
-

@@ -1,0 +1,7 @@
+main {
+    .container {
+        h2 {
+        @extend %estilos-faq
+        }
+    }
+}

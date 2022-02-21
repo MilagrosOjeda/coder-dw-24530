@@ -16,81 +16,109 @@
 
 <body>
     <main>
-        <div class="container-fluid fw-light @include media-breakpoint-down(sm)">
+        <div class="row">
+            <div class="col">
+                <header>
+                    <div class="envio-index ">
+                        Envio gratis a partir de $3000
+                    </div>
+    
+                    <div class="text-center logo header-logo">
+                        <a href="../index.html">
+                            <img src="../images/darling-header.png" alt="logo" class="text-center logo header-logo" id="headerLogo">
+                        </a>
+                    </div>
+    
+                    <nav class="menu-header">
+                        <ul class="nav justify-content-center border border-1 border-dark border-start-0 border-end-0">
+                            <li><a href="../index.html" class="text-decoration-none menu letras"> Inicio</a></li>
+                            <li><a href="../pages/productos.html" class="text-decoration-none menu letras"> Productos </a></li>
+                            <li><a href="../pages/contacto.html" class="text-decoration-none menu letras"> Contacto </a> </li>
+                            <li><a i class="fas fa-shopping-cart text-decoration-none icon letras" href="../index.html"></i></a></li>
+                            <li><a i class="far fa-heart text-decoration-none icon letras" href="../index.html"></i></a></li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+        </div>
+
+        <div class="container fw-light">
             <div class="row">
                 <div class="col">
-                    <header>
-                        <div class="text-center envio-index">
-                            Envio gratis a partir de $3000
-                        </div>
-                        <div class="text-center logo">
-                            <img src="../images/darling-header.png" alt="logo" id="headerLogo">
-                        </div>
-                        <nav class="menu-header">
-                            <ul class="nav justify-content-center border border-1 border-dark border-start-0 border-end-0">
-                                <li><a href="../index.html" class="text-decoration-none menu letras"> Inicio</a></li>
-                                <li><a href="../pages/productos.html" class="text-decoration-none menu letras"> Productos </a></li>
-                                <li><a href="../pages/contacto.html" class="text-decoration-none menu letras"> Contacto </a> </li>
-                                <li><a href="../pages/preguntas-frecuentes.html" class="text-decoration-none menu letras"> Preguntas Frecuentes </a></li>
-                                <li><a i class="fas fa-shopping-cart text-decoration-none icon letras"></i></a></li>
-                                <li><a i class="far fa-heart text-decoration-none icon letras"></i></a></li>
-                            </ul>
-                        </nav>
-                    </header>
-                </div>
-            </div>
-            
-            <div class="row ">
-                <div class="col">
-                    <h3 class="contacto-text">
+                    <h1 class="contacto-text text-center">
                         CONTACTO
-                    </h3>
-                    <form class="mmm mx-auto d-block">
-                        <div class="input-group">
-                            <span class="input-group-text">NOMBRE</span>
-                            <input type="text" aria-label="nombre" class="form-control">
+                    </h1>
+                </div>
+            </div>    
+            <form>
+                <div class="mb-3">
+                    <div class="row g-2">
+                        <div class="col-6">
+                            <input type="text" class="form-control" placeholder="Nombre" aria-label="nombre">
                         </div>
-                        <div class="input-group">
-                            <span class="input-group-text">APELLIDO</span>
-                            <input type="text" aria-label="apellido" class="form-control">
+
+                        <div class="col-6">
+                            <input type="text" class="form-control" placeholder="Apellido" aria-label="apellido">
                         </div>
+                    </div>
+                </div>
+                    
+                <div class="row g-2">
+                    <div class="col-6"> 
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">E-mail</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">                        
                         </div>
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected disabled>Sexo</option>
-                            <option value="f">Femenino</option>
+                    </div>
+        
+                    <div class="col-6">
+                        <div class="mb-3">
+                            <label class="visually-hidden" for="inlineFormSelectPref">Genero</label>
+                            <select class="form-select" id="inlineFormSelectPref">                                    <option selected disabled>Genero</option>
                             <option value="m">Masculino</option>
+                            <option value="f">Femenino</option>
                             <option value="o">Otro</option>
-                        </select>
-                        <div class="form-check">
+                            </select>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="form-check mb-3">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                             <label class="form-check-label" for="flexCheckDefault">
-                            DESEO SUBSCRIBIRME AL NEWSLETTER
+                                Deseo subscribirme al newsletter
                             </label>
-                        </div>   
-                        <div class="mb-3 mensaje">
-                            <label for="exampleFormControlTextarea1" class="form-label">ESCRIBI TU MENSAJE</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
                         </div>
-                        <button type="button" class="btn btn-light">ENVIAR</button>
-                    </form>
+                    </div>
                 </div>
-            </div>
 
-            <div class="row">
-                <div class="col">
-                    <footer>       
-                        <ul class="nav justify-content-center border border-1 border-dark border-start-0 border-end-0">
-                            <li><a href="../pages/envios.html" class="text-decoration-none menu letras">Envios</a></li>
-                            <li><a href="../pages/metodos de pago.html" class="text-decoration-none menu letras">Metodos de pago</a></li>
-                            <li><a href="../pages/local.html" class="text-decoration-none menu letras">Local</a></li>
-                            <li><a href="../pages/trabaja con nosotros.html" class="text-decoration-none menu letras">Trabaja con nosotros</a></li>
-                        </ul>        
-                        <h6 class="text-center menu"> <i class="far fa-copyright"> </i>Milagros Ojeda</h6>
-                    </footer>
+                <div class="row">
+                    <div class="col">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
                 </div>
+
+                <div class="row">
+                    <div class="col p-3">
+                        <button type="submit" class="btn btn-primary btn-submit">Enviar</button>
+                    </div>
+                </div> 
+
+            </form> 
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <footer>
+                    <ul class="nav justify-content-center border border-1 border-dark border-start-0 border-end-0 footer">
+                        <li><a href="../pages/preguntas-frecuentes.html" class=" letras"> Preguntas Frecuentes </a></li>
+                        <li><a href="../pages/local.html" class=" letras">Local</a></li>
+                        <li><a href="../pages/trabaja-con-nosotros.html" class=" letras">Trabaja con nosotros</a></li>
+                    </ul>
+                    <h6 class="text-center"> <i class="far fa-copyright"> </i>Milagros Ojeda</h6>
+                </footer>
             </div>
         </div>
     </main>

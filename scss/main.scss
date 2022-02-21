@@ -6,6 +6,9 @@
 }
 
 @import './variables/medidas';
+@import './variables/colores';
+@import './variables/extend';
+@import './variables/maps';
 
 @import './secciones/header-footer/header';
 @import './secciones/index';
@@ -13,3 +16,4 @@
 @import './secciones/header-footer/footer';
 @import './secciones/local';
 @import './secciones/contacto';
+@import './secciones/faqs';

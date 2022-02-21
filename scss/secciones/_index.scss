@@ -2,7 +2,7 @@ a {
     text-decoration: none;
 }
 
-.logos{
+.logos {
     margin: 0px 30px;
 }
 
@@ -10,15 +10,28 @@ a {
     padding: 5px;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 576px) {
     .logos {
-        width: 132px;
+        width: $logos-size/2;
         margin: auto;
     }
 }
-
-@media (max-width: 438px){
+@media (max-width: 522px) {
     .logos {
-        width: 95px;
+        width: $logos-size/2;
+        margin: auto;
+    }
+}   
+@media (max-width: 395px) {
+    .logos {
+        width: $logos-size/10;
+        margin: auto;
+    }
+}
+@media (max-width: 768px) {  
+    .logos {
+        
+        width: $logos-size/2;
+        margin: auto;
     }
 }
